@@ -14,7 +14,6 @@ header {
     overflow: hidden;
 }
 
-
 /* vertically center banner section */
 
 header:before {
@@ -905,4 +904,17 @@ footer .social-links li:first-child {
 
 #go-top a:hover {
     background-color: #0F9095;
+}
+
+#missing {
+    position: relative;
+    height: 1440px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(../images/404-black-hole.jpg) no-repeat top center;
+    background-size: cover !important;
+    background-position: center !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
 }
