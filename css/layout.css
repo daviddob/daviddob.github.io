@@ -513,6 +513,14 @@ ul#nav li.current a {
     color: #313131;
 }
 
+#projects a.github, #projects a.github:visited {
+    color: #313131;
+}
+
+#projects a.github:hover, #projects a.github:focus {
+    color: #0099ff;
+}
+
 #projects h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
@@ -903,7 +911,7 @@ footer .social-links li:first-child {
 }
 
 #go-top a:hover {
-    background-color: #0F9095;
+    background-color: #0099ff;
 }
 
 #missing {
