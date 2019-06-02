@@ -39,9 +39,8 @@
                 <ul class="social">
                     <li><a href="https://www.linkedin.com/in/daviddobmeier/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="https://github.com/daviddob" target="_blank"><i class="fa fa-github"></i></a></li>
-                    <li><a href="files/DavidDobmeier_Resume.pdf" target="_blank"><i class="fa fa-file-text"></i></a></li>
+                    <li><a class="smoothscroll" href="#resume"><i class="fa fa-file-text"></i></a></li>
                     <li><a href="mailto:david.dobmeier@live.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                    <li><a href="https://www.reddit.com/user/---ICEMAN---/" target="_blank"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -61,7 +60,7 @@
                     I'm a Cloud Engineer for a global cloud consulting firm who is driven to solve the hard problems and adapt to a fast-paced and ever changing environment.
                     I have experience in Systems and Networks administration currently both professionally and as a hobby interest.
                     I strive to create and support systems that not only function efficiently under the hood, but also are stable and scalable for consistent future use.
-                    I am always looking forward to the next iteration of faster more efficient technology with custom PC building a favourite pasttime.
+                    I am always looking forward to the next iteration of faster more efficient technology with custom PC building a favourite past-time.
                     When I'm not in front of a computer screen, I'm probably 3D Printing, skiing, hammocking, managing musical productions, or getting lost in a novel.
                 </p> 
                 <div class="row">
@@ -69,13 +68,12 @@
                         <h2>Contact Details</h2>
                         <p class="address">
                             <span>David Dobmeier</span><br>
-                            <span>7144 Lakeside Court<br>Wheatfield, NY 14304 US</span><br>
                             <span>david.dobmeier@live.com</span>
                         </p>
                     </div>
                     <div class="columns download">
                         <p>
-                            <a href="files/DavidDobmeier_Resume.pdf" target="_blank" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                            <a href="#resume" class="button smoothscroll"><i class="fa fa-download"></i>Resume</a>
                         </p>
                     </div>
                 </div>
@@ -140,9 +138,13 @@
                         <p class="info">Cloud Engineer<span>&bull;</span> <em class="date">August 2017 - Present</em></p>
                         <p>
                             Consulted and Engineered solutions for companies worldwide in the creation and deployment of open source cloud management solutions. 
-                            Deployed and maintained large scale application platforms as well as built tools and infrastructure to automate CloudFoundry, Concourse, and Bosh Releases.
-                            Contributed and released several large scale open-source projects into the <a href="https://github.com/cloudfoundry-community" target="_blank">CF Community</a> 
-                            and <a href="https://github.com/starkandwayne" target="_blank">Stark & Wayne</a> organizations. 
+                            Deployed and maintained large scale application platforms as well as built tools and infrastructure to automate Cloud Foundry, Concourse, and Bosh Releases.
+                            Contributed to and released several large scale open-source projects into the 
+                            <a href="https://github.com/starkandwayne" target="_blank">Stark & Wayne</a>,
+                            <a href="https://github.com/cloudfoundry-community" target="_blank">Cloud Foundry Community</a>,
+                            <a href="https://github.com/shieldproject" target="_blank">Shield Project</a>,
+                            <a href="https://github.com/genesis-community" target="_blank">Genesis Community</a>,
+                            and <a href="https://github.com/blacksmith-community" target="_blank">Blacksmith Community</a> organizations. 
                         </p>
                     </div>
                 </div>
@@ -153,7 +155,7 @@
                         <p>
                             Responsible for leading a team in developing an Autograding system capable of providing real-time feedback for coding assignments
                             that is language agnostic and can detect academic integrity violations. Developed the back-end distributed system in python which
-                            allowed jobs to be dispatched onto a scalable cluster of servers for effcient and reliable processing.
+                            allowed jobs to be dispatched onto a scalable cluster of servers for efficient and reliable processing.
                             Ensured the servers and infrastructure were capable of supporting the daily load of 2500+ students as well as prepared for future 
                             scalability with increased performance and stability.
                         </p>
@@ -174,7 +176,7 @@
                                 upgrades of user workstations in addition to reliable asset tracking.
                             Redesigned the server room layout to be more organized including strategic server, patch panel, and switch layout which
                                 aided cable management and troubleshooting efficiency.
-                            Worked closely and effectively with users to provide effcient technical support and informative documentation
+                            Worked closely and effectively with users to provide efficient technical support and informative documentation
                                 for hardware and software systems.
                         </p>
                     </div>
@@ -230,13 +232,98 @@
             <div class="nine columns main-col">
                 <div class="row item">
                     <div class="twelve columns">
-                        <h3> Doomsday <a class="github" href="https://github.com/thomasmmitchell/doomsday" target="_blank"><i class="fa fa-github"></i></a></h3>
-                        <p class="info"><em class="date">April 2018</em></p>
+                        <h3> BOSH <a class="github" href="https://github.com/cloudfoundry/bosh" target="_blank"><i class="fa fa-github"></i></a></h3>
+                        <p class="info"><em class="date">July 2017 - Present</em></p>
                         <p>
-                            Doomsday is a application that monitors the expiration dates of certificates in Vault, Credhub, and PCF OpsManager. It serves as a
+                            Cloud Foundry BOSH is an open source tool chain for release engineering, deployment and lifecycle management of large scale distributed services.
+                            I have worked with the maintainers to identify and create patches for bugs in both the core as well as the CPIs, especially where air-gapped networks
+                            come into play. I have also worked to create and maintain several BOSH releases including the 
+                            <a href="https://github.com/starkandwayne/shield-boshrelease" target="_blank">shield-boshrelease</a>,
+                            <a href="https://github.com/starkandwayne/service-fabric-boshrelease" target="_blank">service-fabric-boshrelease</a>,
+                            <a href="https://github.com/cloudfoundry-community/vault-boshrelease" target="_blank">vault-boshrelease</a>,
+                            <a href="https://github.com/doomsday-project/doomsday-boshrelease" target="_blank">doomsday-boshrelease</a>,
+                            <a href="https://github.com/cloudfoundry-community/jumpbox-boshrelease" target="_blank">jumpbox-boshrelease</a>,
+                            and <a href="https://github.com/cloudfoundry-community/softhsm-boshrelease" target="_blank">softhsm-boshrelease</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3> Genesis <a class="github" href="https://github.com/starkandwayne/genesis" target="_blank"><i class="fa fa-github"></i></a></h3>
+                        <p class="info"><em class="date">August 2017 - Present</em></p>
+                        <p>
+                            Genesis is a tool that facilitates a BOSH deployment paradigm based on localization of general manifests to more specific environments, 
+                            allowing re-use of common structure (jobs, releases, properties, etc.) across multiple installations. I wrote and contributed to several
+                            deployment kits including the 
+                            <a href="https://github.com/genesis-community/cf-genesis-kit" target="_blank">cf-kit</a>,
+                            <a href="https://github.com/genesis-community/bosh-genesis-kit" target="_blank">bosh-kit</a>, 
+                            <a href="https://github.com/genesis-community/shield-genesis-kit" target="_blank">shield-kit</a>, 
+                            <a href="https://github.com/genesis-community/concourse-genesis-kit" target="_blank">concourse-kit</a> 
+                            <a href="https://github.com/genesis-community/jumpbox-genesis-kit" target="_blank">jumpbox-kit</a>, 
+                            <a href="https://github.com/genesis-community/vault-genesis-kit" target="_blank">vault-kit</a>, 
+                            <a href="https://github.com/genesis-community/prometheus-genesis-kit" target="_blank">prometheus-kit</a>, 
+                            and <a href="https://github.com/genesis-community/minio-genesis-kit" target="_blank">minio-kit</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3> Doomsday <a class="github" href="https://github.com/doomsday-project/doomsday" target="_blank"><i class="fa fa-github"></i></a></h3>
+                        <p class="info"><em class="date">April 2018 - Present</em></p>
+                        <p>
+                            Doomsday is a application that monitors the expiration dates of certificates in Vault, Credhub, and PCF Ops-Manager. It serves as a
                             warning system to prevent the unknown expiration of certificates and the catastrophe that inevitably follows. I implemented the Credhub,
                             and OpsManager interfaces to pull certificates from their respective credential stores as well as assisted in the implementation of the CLI
                             and WebUI
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3> SHIELD <a class="github" href="https://github.com/starkandwayne/shield" target="_blank"><i class="fa fa-github"></i></a></h3>
+                        <p class="info"><em class="date">August 2017 - Present</em></p>
+                        <p>
+                            SHIELD is a data protection solution designed to make it easier for operations to protect their critical infrastructural data. 
+                            It provides primitives for scheduling automatic backups of key systems, including PostgreSQL, MySQL, Consul, Redis and MongoDB, 
+                            as well as a means for restoring backups in the event of an outage. Backups can be stored in a variety of cloud providers, including S3, 
+                            Scality, Microsoft Azure Blobstore, and more. I am one of the main contributors for Shield v8 which added an entirely new CLI, WebUI,
+                            Multi-Tenancy and Encryption at Rest support.
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3> Autolab <a class="github" href="https://github.com/UBAutograding/Autolab" target="_blank"><i class="fa fa-github"></i></a></h3>
+                        <p class="info"><em class="date">July 2016 - Present</em></p>
+                        <p>
+                            Autolab is a course management service, initially developed by a team of students at Carnegie Mellon University and University at Buffalo, 
+                            that enables instructors to offer autograded programming assignments to their students over the Web. The two key ideas in Autolab are autograding, 
+                            that is, programs evaluating other programs, and scoreboards. Autolab also provides other services that instructors expect in a course management system, 
+                            including gradebooks, rosters, handins/handouts, lab writeups, code annotation, manual grading, late penalties, grace days, cheat checking, 
+                            meetings, partners, and bulk emails. I am currently leading the development team at University at Buffalo as well as conducting the release engineering
+                            and future architecture roadmap.
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3> Tango <a class="github" href="https://github.com/UBAutograding/Tango" target="_blank"><i class="fa fa-github"></i></a></h3>
+                        <p class="info"><em class="date">February 2016 - Present</em></p>
+                        <p>
+                            Tango is a standalone RESTful Web service that runs and manages jobs for <a href="https://github.com/UBAutograding/Autolab">Autolab</a>
+                            It handles the provisioning of docker containers, testing of student code, and result reporting to the Atuolab WebUI. I was Responsible
+                            for implementing the job queue and scheduler as well as implementing the ability for tango to act as a distributed system across compute nodes
+                            with a centralized job manager to more effectively process jobs at a larger scale.
+                        </p>
+                    </div>
+                </div>
+                <div class="row item">
+                    <div class="twelve columns">
+                        <h3> OM <a class="github" href="https://github.com/pivotal-cf/om" target="_blank"><i class="fa fa-github"></i></a></h3>
+                        <p class="info"><em class="date">December 2018</em></p>
+                        <p>
+                            om is a CLI that helps configure and deploy tiles to Pivotal Ops-Manager and is the backbone for automating PCF deployments and upgrades. I
+                            implemented new commands to allow automated configuration of custom certificates for Ops-Manager.
                         </p>
                     </div>
                 </div>
@@ -259,58 +346,6 @@
                         <p>
                             SoftHSM is an implementation of a cryptographic store accessible through a PKCS #11 interface. You can use it to explore PKCS #11 without having 
                             a Hardware Security Module. I implemented support for CKM_GENERIC_SECRET_KEY_GEN which is required for HMAC operations in PKCS11 2.4.0.
-                        </p>
-                    </div>
-                </div>
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3> SHIELD <a class="github" href="https://github.com/starkandwayne/shield" target="_blank"><i class="fa fa-github"></i></a></h3>
-                        <p class="info"><em class="date">August 2017 - Present</em></p>
-                        <p>
-                            SHIELD is a data protection solution designed to make it easier for operations to protect their critical infrastructural data. 
-                            It provides primitives for scheduling automatic backups of key systems, including PostgreSQL, MySQL, Consul, Redis and MongoDB, 
-                            as well as a means for restoring backups in the event of an outage. Backups can be stored in a variety of cloud providers, including S3, 
-                            Scality, Microsoft Azure Blobstore, and more. I am one of the main contributors for Shield v8 which added an entirely new CLI, WebUI,
-                            Multi-Tenancy and Encryption at Rest support.
-                        </p>
-                    </div>
-                </div>
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3> Genesis <a class="github" href="https://github.com/starkandwayne/genesis" target="_blank"><i class="fa fa-github"></i></a></h3>
-                        <p class="info"><em class="date">August 2017 - Present</em></p>
-                        <p>
-                            Genesis is a tool that facilitates a BOSH deployment paradigm based on localization of general manifests to more specific environments, 
-                            allowing re-use of common structure (jobs, releases, properties, etc.) across multiple installations. I wrote and contributed to several
-                            deployment kits including the <a href="https://github.com/genesis-community/shield-genesis-kit" target="_blank">shield-kit</a>, 
-                            <a href="https://github.com/genesis-community/bosh-genesis-kit" target="_blank">bosh-kit</a>, <a href="https://github.com/genesis-community/vault-genesis-kit" target="_blank">vault-kit</a>, 
-                            <a href="https://github.com/genesis-community/concourse-genesis-kit" target="_blank">concourse-kit</a> and <a href="https://github.com/genesis-community/cf-genesis-kit" target="_blank">cf-kit</a>.
-                        </p>
-                    </div>
-                </div>
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3> Autolab <a class="github" href="https://github.com/UBAutograding/Autolab" target="_blank"><i class="fa fa-github"></i></a></h3>
-                        <p class="info"><em class="date">July 2016 - Present</em></p>
-                        <p>
-                            Autolab is a course management service, initially developed by a team of students at Carnegie Mellon University and University at Buffalo, 
-                            that enables instructors to offer autograded programming assignments to their students over the Web. The two key ideas in Autolab are autograding, 
-                            that is, programs evaluating other programs, and scoreboards. Autolab also provides other services that instructors expect in a course management system, 
-                            including gradebooks, rosters, handins/handouts, lab writeups, code annotation, manual grading, late penalties, grace days, cheat checking, 
-                            meetings, partners, and bulk emails. I am currently leading the development team at University at Buffalo as well as condutcting the release engineering
-                            and future architecture roadmap.
-                        </p>
-                    </div>
-                </div>
-                <div class="row item">
-                    <div class="twelve columns">
-                        <h3> Tango <a class="github" href="https://github.com/UBAutograding/Tango" target="_blank"><i class="fa fa-github"></i></a></h3>
-                        <p class="info"><em class="date">February 2016 - Present</em></p>
-                        <p>
-                            Tango is a standalone RESTful Web service that runs and manages jobs for <a href="https://github.com/UBAutograding/Autolab">Autolab</a>
-                            It handles the provisioning of docker containers, testing of student code, and result reporting to the Atuolab webUI. I was Responsible
-                            for implementing the job queue and scheduler as well as implementing the ability for tango to act as a distributed system across compute nodes
-                            with a centralized job manager to more effectively process jobs at a larger scale.
                         </p>
                     </div>
                 </div>
@@ -363,6 +398,10 @@
             </div>
             <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
         </div>
+        <div class="row">
+            <p>Copyright © 2019 David Dobmeier</p>
+        </div>
+
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
